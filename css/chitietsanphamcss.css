@@ -1,9 +1,3 @@
-ul li span {
-    
-    color:green;
-    background-color: green;
-    
-}
 
 .chinhanh{
     width: 8%;
@@ -12,9 +6,7 @@ ul li span {
 .cauhinh{
     padding: 20px;
 }
-.carousel{
-    background-color: cornflowerblue;
-}
+
 .table1 {
     font-size: 13px;
     display: inline;

@@ -1,5 +1,4 @@
 
-
 div.chiTietSanPham{
     position: relative;
 }
@@ -27,16 +26,6 @@ div.chiTietSanPham1 .moTaSanPham{
     height: 10%;
     box-shadow: 2px 2px 4px 4px gray;
 }
-
-/* div.chiTietSanPham:hover{
-    transform: scale(1.05,1.05);
-    transition:ease-in transform 0.3s;
-}
-div.chiTietSanPham1:hover{
-    transform: scale(1.05,1.05);
-    transition:ease-out transform 0.3s;
-} */
-
 .card{
     border: 1px solid white;
 }

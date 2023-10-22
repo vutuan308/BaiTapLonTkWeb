@@ -6,8 +6,8 @@ body{
 
 header{
     background-color: salmon;
-    padding: 10px;
     background-color: snow;
+    padding-top: 10px;
 }
 
 .ulfooter  li{
@@ -120,13 +120,12 @@ header{
 }
 
 
-
 #odangnhap  #bangdangnhap{
     width: 300px;
     height: 300px;
     background-color: white;
     position: absolute;
-    top: 40px;
+    top: 37px;
     border-radius: 10px;
    padding-top: 20px;
     text-align: center;
@@ -168,8 +167,15 @@ header{
   text-decoration: none;
  
 
-  
 }
+#menuloai li {
+    list-style-type: none;
+    padding-top: 5px;
+}
+#menuloai .menu-item:hover {
+    color: #F85928;
+}
+
 
 #menuloai a i.fa-angle-right {
    float: right;

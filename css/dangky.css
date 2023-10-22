@@ -20,3 +20,14 @@
     
     padding-bottom: 10px;
 }
+
+.modal-header {
+    background-color: #28a745;
+
+}
+.modal-header h4 {
+    color: white;
+}
+#dangky {
+    margin-top: 15px;
+}

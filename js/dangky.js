@@ -75,15 +75,13 @@ function hienThiDuLieu(){
         modalThongTin[4].innerHTML = thongtin.gioitinh.value;
         modalThongTin[5].innerHTML = thongtin.ngaysinh.value;
         
-
+        $('#myModal').modal('show'); // show modal
     }else{
         alert("Vui lòng điền đầy đủ thông tin đăng ký !");
-        $("#myModal").mouseclick(function () {
-            $('#myModal').modal('hide');
-        
-        });
-        // cặc dell biết làm doume chịu
         
     }
 }
-
+//Khi dong modal reset trang
+$('#myModal').on('hidden.bs.modal', function () {
+    document.forms['formThongTin'].reset();
+  }); 

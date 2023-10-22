@@ -4,24 +4,20 @@
 function capNhatTien() {
     var tien = document.getElementsByClassName('tien');
     var soluong = document.getElementsByClassName('soluong');
-
-
     var tongTien = 0;
-
     for (var i = 0; i < tien.length; i++) {
-
-
-        tongTien += parseFloat(tien[i].innerHTML) * parseInt(soluong[i].value);
+        var tienValue = tien[i].innerHTML.replace(/\./g, '');
+        tongTien += parseFloat(tienValue) * parseInt(soluong[i].value);
     }
 
     var tongTienSanPham = document.getElementById('tongTienSanPham');
 
-    tongTienSanPham.innerHTML = tongTien + " đ";
+    tongTienSanPham.innerHTML = tongTien.toLocaleString() + " đ";
 
 
-    var tongTienThanhToan = tongTien + 50000;
+    var tongTienThanhToan = tongTien + 30000;
 
-    document.getElementById('othanhtien').innerHTML = tongTienThanhToan + " đ";
+    document.getElementById('othanhtien').innerHTML = tongTienThanhToan.toLocaleString() + " đ";
 }
 
 var soluong = document.getElementsByClassName('soluong');
